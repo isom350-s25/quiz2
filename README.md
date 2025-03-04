@@ -21,7 +21,7 @@ Students are required to complete the following tasks for the practical quiz:
      ```python
      shopping_list = ['apple', 'banana', 'cherry']
      ```
-   - Pass the list to the context and display it in the template as an unordered list.
+   - Pass the list to the context and display it in the template as an unordered list. You must use the 'for' loop template tag to display the list.
 
 4. **Task 4 (20 pts): Create a Dynamic View**
    - Create a view named `dynamic_view`.
