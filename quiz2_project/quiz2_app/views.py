@@ -7,7 +7,7 @@ def static_view(request):
 
     return render(request, 'static.html',context)
 def list_view(request):
-    my_list = ["apple", "banana", "cherry"]
+    my_list = ['apple', 'banana', 'cherry']
     context = {"list" : my_list}
     return render(request, 'list.html', context)
 def dynamic_view(request, name):
