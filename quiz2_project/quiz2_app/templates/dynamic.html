@@ -1,0 +1,10 @@
+<html>
+<body>
+    <h1>Here is the dynamic name</h1>
+    <form method="get" action="{% url 'dynamic' %}">
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="submit" value="Submit">
+    </form>
+    <h1>Hello {{ name }}</h1>
+</body>
+</html>
