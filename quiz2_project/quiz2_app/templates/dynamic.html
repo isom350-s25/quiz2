@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>dynamic page view</title>
+    </head>
+    <body>
+       <form action = "" method ="get">
+            <label for='name'>Enter your name: </label>
+            <input type='text' name='name' id='name'>
+            <input type='submit' value='Submit'>
+            {% if request.GET.name %}
+            <h1>Hello, {{ request.GET.name }}</h1>
+        {% endif %}
+        </form>
+       
+    </body>
+</html>
